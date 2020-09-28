@@ -1,0 +1,29 @@
+{
+  "name": "logger-api",
+  "version": "1.0.0",
+  "description": "A simple logger API for requests",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MASISKAR/logger-api.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Masis Karapetyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MASISKAR/logger-api/issues"
+  },
+  "homepage": "https://github.com/MASISKAR/logger-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
